@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Bucket</title>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Latest compiled and minified Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <!-- Amazon SDK -->
+  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.3.16.min.js"></script>
+  <!-- Listing script -->
+  <script src="loadS3.js"></script>   
+</head>
+
+<body>
+  <!-- File Listing -->    
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Title</th>
+          <th>Player</th>
+        </tr>
+      </thead>
+      <tbody id="objects">
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
